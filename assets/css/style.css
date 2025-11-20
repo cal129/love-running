@@ -86,8 +86,21 @@ main {
 }
 
 /*footer style*/
-footer {
+#social-networks {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
     background-color: #d9a160;
+    box-shadow: 0 -2px 2px #3a3a3a;
+    /*make sure footer stays at bottom of page*/
+    flex-shrink: 0;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 0 20px;
+    color: #3a3a3a;
 }
 
 /*media queries for larger screens*/
