@@ -1,0 +1,21 @@
+/* wildcard overide selector overide browser defaults*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header style*/
+header {
+    background-color: darkred;
+}
+
+/*body style*/
+main {
+    background-color: lightgrey;
+}
+
+/*footer style*/
+footer {
+    background-color: greenyellow;
+}
