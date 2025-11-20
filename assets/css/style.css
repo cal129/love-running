@@ -19,7 +19,7 @@ body {
 
 /*header style*/
 header {
-    background-color: #ffffff;
+    background-color: #d9a160;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -52,7 +52,7 @@ header a {
 /*nav bar style with drop down selector */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #d9a160;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -79,7 +79,7 @@ h1 {
 
 /*main style*/
 main {
-    background-color: rgb(206, 164, 211);
+    background-color: rgb(101, 159, 156);
     /*make main element take up any surpless space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
@@ -87,7 +87,7 @@ main {
 
 /*footer style*/
 footer {
-    background-color: greenyellow;
+    background-color: #d9a160;
 }
 
 /*media queries for larger screens*/
