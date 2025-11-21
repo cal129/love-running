@@ -79,10 +79,14 @@ h1 {
 
 /*main style*/
 main {
-    background-color: rgb(101, 159, 156);
     /*make main element take up any surpless space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+#hero {
+    height: 600px;
+    background: url(../images/hero-image.webp) no-repeat center center/cover;
 }
 
 /*footer style*/
