@@ -162,6 +162,17 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
+/*gallery styles*/
+
+#photos img {
+    width: 100%;
+    line height: 1em     
+}
+
+#photos {
+    line-height: 0;
+}
+
 /*footer style*/
 #social-networks {
     list-style-type: none;
